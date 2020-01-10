@@ -31,7 +31,7 @@
         function initialize() {
           earth = new WE.map('earth_div');
           earth.setView([38.9010309, -77.0197269], 3);
-          WE.tileLayer('http://tileserver.maptiler.com/cassini-terrestrial/%7Bz%7D/%7Bx%7D/%7By%7D.jpg/nasa/{z}/{x}/{y}.jpg').addTo(earth);
+          WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg').addTo(earth);
   
           // Start a simple rotation animation
           var before = null;
