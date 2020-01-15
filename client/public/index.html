@@ -25,6 +25,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- Earth scripts -->
     <script src="http://www.webglearth.com/v2/api.js"></script>
     <script>
         var earth;
@@ -43,27 +44,44 @@
               requestAnimationFrame(animate);
           });
 
-          var marker3 = WE.marker([38.9010309, -77.0197269]).addTo(earth);
-            marker3.bindPopup("<b>NDI Office</b><br>Washington DC", {maxWidth: 150, closeButton: true}).openPopup();
+            const markers = [
+                {
+                    city: "Washington DC",
+                    location: [38.9010309, -77.0197269],
+                },
+                {
+                    city: "Cairo",
+                    location: [30.058056, 31.228889],
+                },
+                {
+                    city: "London",
+                    location: [51.5, -0.09],
+                }
+            ]
 
-            var marker = WE.marker([51.5, -0.09]).addTo(earth);
-            marker.bindPopup("<b>Hello world!</b><br>I am a popup.<br /><span style='font-size:10px;color:#999'>Tip: Another popup is hidden in Cairo..</span>", {maxWidth: 150, closeButton: true}).openPopup();
-
-            var marker2 = WE.marker([30.058056, 31.228889]).addTo(earth);
-            marker2.bindPopup("<b>Cairo</b><br>Yay, you found me!", {maxWidth: 120, closeButton: false});
+            for (const marker of markers) {
+                const newMarker = WE.marker(marker.location).addTo(earth);
+                if (marker.city === "Washington DC") {
+                    newMarker.bindPopup(marker.city, {maxWidth: 150, closeButton: true}).openPopup();
+                }
+                else newMarker.bindPopup(marker.city, {maxWidth: 150, closeButton: true});
+            }
 
             var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
         }
       </script>
       <style>
-        html, body{padding: 0; margin: 0; background-color: black;}
-        #earth_div{top: 0; right: 0; bottom: 0; left: 0; position: absolute !important;}
+        #earth_div{
+            top: 0; right: 0; bottom: 0; left: 0; position: absolute !important;
+        }
+        .we-pp-wrapper {
+            text-align: center;
+        }
       </style>
   </head>
   <body onload="initialize()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <div id="earth_div"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
