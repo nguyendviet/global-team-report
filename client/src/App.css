@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 } */
+
+#earth_div {
+    background-color: #282c34;
+}
+
+.MuiButton-label {
+    color: white;
+}
