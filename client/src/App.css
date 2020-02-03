@@ -40,9 +40,3 @@
 .App {
     background-color: #282c34;
 }
-
-.MapChart {
-    max-width: 1024px;
-    width: 100%;
-    margin: auto;
-}

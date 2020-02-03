@@ -3,15 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import Drawer from './components/Drawer';
-import MapChart from './components/MapChart';
-import ReactTooltip from 'react-tooltip';
+import HighchartsMap from './components/HighchartsMap';
 
 const App: React.FC = () => {
     const [content, setContent] = useState("");
   return (
     <div className="App">
-        <MapChart setTooltipContent={setContent} />
-        <ReactTooltip>{content}</ReactTooltip>
+        <HighchartsMap/>
         <Drawer/>
     </div>
   );
