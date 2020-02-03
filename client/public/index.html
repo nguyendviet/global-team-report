@@ -25,59 +25,6 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <!-- Earth scripts -->
-    <script src="http://www.webglearth.com/v2/api.js"></script>
-    <script>
-        var earth;
-        function initialize() {
-          earth = new WE.map('earth_div');
-          earth.setView([38.9010309, -77.0197269], 3);
-          WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg').addTo(earth);
-  
-          // Start a simple rotation animation
-          var before = null;
-          requestAnimationFrame(function animate(now) {
-              var c = earth.getPosition();
-              var elapsed = before? now - before: 0;
-              before = now;
-              earth.setCenter([c[0], c[1] - 0.1*(elapsed/30)]);
-              requestAnimationFrame(animate);
-          });
-
-            const markers = [
-                {
-                    city: "Washington DC",
-                    location: [38.9010309, -77.0197269],
-                },
-                {
-                    city: "Cairo",
-                    location: [30.058056, 31.228889],
-                },
-                {
-                    city: "London",
-                    location: [51.5, -0.09],
-                }
-            ]
-
-            for (const marker of markers) {
-                const newMarker = WE.marker(marker.location).addTo(earth);
-                if (marker.city === "Washington DC") {
-                    newMarker.bindPopup(marker.city, {maxWidth: 150, closeButton: true}).openPopup();
-                }
-                else newMarker.bindPopup(marker.city, {maxWidth: 150, closeButton: true});
-            }
-
-            var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
-        }
-      </script>
-      <style>
-        #earth_div{
-            top: 0; right: 0; bottom: 0; left: 0; position: absolute !important;
-        }
-        .we-pp-wrapper {
-            text-align: center;
-        }
-      </style>
   </head>
   <body onload="initialize()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
