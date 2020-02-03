@@ -1,1 +1,1 @@
-# earth-react
+# Global Team Report
