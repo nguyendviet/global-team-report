@@ -37,10 +37,12 @@
   }
 } */
 
-#earth_div {
+.App {
     background-color: #282c34;
 }
 
-.MuiButton-label {
-    color: white;
+.MapChart {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
 }

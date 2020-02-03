@@ -21,9 +21,18 @@ const rounded = num => {
   }
 };
 
+const showCountry = (name) => {
+    switch(name) {
+        case 'United States of America':
+            return 'Washington DC'
+        default:
+            return 'No Data'
+    }
+}
+
 const MapChart = ({ setTooltipContent }) => {
   return (
-    <>
+    <div className="MapChart">
       <ComposableMap data-tip="" projectionConfig={{ scale: 147 }}>
       <Sphere stroke="#FF5533" strokeWidth={2} />
       {/* <Graticule stroke="gray" step={[10, 10]}/> */}
@@ -36,7 +45,8 @@ const MapChart = ({ setTooltipContent }) => {
                   geography={geo}
                   onMouseEnter={() => {
                     const { NAME, POP_EST } = geo.properties;
-                    setTooltipContent(`${NAME} — ${rounded(POP_EST)}`);
+                    // setTooltipContent(`${NAME} — ${rounded(POP_EST)}`);
+                    setTooltipContent(`${NAME} — ${showCountry(NAME)}`);
                   }}
                   onMouseLeave={() => {
                     setTooltipContent("");
@@ -61,7 +71,7 @@ const MapChart = ({ setTooltipContent }) => {
           </Geographies>
         {/* </ZoomableGroup> */}
       </ComposableMap>
-    </>
+    </div>
   );
 };
 
