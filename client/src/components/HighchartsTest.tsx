@@ -1,4 +1,5 @@
 import * as React from 'react';
+import * as ReactDom from 'react-dom';
 import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
@@ -7,6 +8,7 @@ const options: Highcharts.Options = {
         text: 'My chart'
     },
     series: [{
+        name: 'something',
         type: 'line',
         data: [1, 2, 3]
     }]
