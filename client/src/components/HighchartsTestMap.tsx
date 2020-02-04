@@ -1,11 +1,10 @@
 import * as React from 'react';
-import * as ReactDom from 'react-dom';
 import * as Highcharts from 'highcharts/highmaps';
 import HighchartsReact from 'highcharts-react-official';
 
 import mapDataWorld from '@highcharts/map-collection/custom/world.geo.json';
 
-var data: [string, number][] = [
+const data: [string, number][] = [
     ['fo', 0],
     ['um', 1],
     ['us', 2],
@@ -221,23 +220,35 @@ var data: [string, number][] = [
     ['np', 212]
 ];
 
-
 const options: Highcharts.Options = {
-
+    title: {
+        text: 'World Map'
+    },
     series: [{
+        name: 'Coverage',
         type: 'map',
         mapData: mapDataWorld,
         data: data,
-    }]
+    }],
+    tooltip: {
+        headerFormat: '',
+        formatter: function () {
+            const country = this.point;
+            const info = `The value for ${country.name} is ${country.value}`
+            return info;
+        }
+    }
 }
 
-const HighchartsTestMap = (props: HighchartsReact.Props) =>  <div>
-    <HighchartsReact
-        options={options}
-        highcharts = { Highcharts }
-        constructorType={'mapChart'}
+export default function HighchartsTestMap(props: HighchartsReact.Props) {
+    return(
+        <div>
+            <HighchartsReact
+                options={options}
+                highcharts = { Highcharts }
+                constructorType={'mapChart'}
                 {...props}
-    />
-</div>
-
-export default HighchartsTestMap;
+            />
+        </div>
+    )
+}
