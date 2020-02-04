@@ -4,7 +4,7 @@ import './App.css';
 
 import Drawer from './components/Drawer';
 import HighchartsTest from './components/HighchartsTest';
-import HighchartsTestMap from './components/HighchartsTestMap.jsx';
+import HighchartsTestMap from './components/HighchartsTestMap';
 
 const App: React.FC = () => {
   return (
