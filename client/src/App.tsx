@@ -4,13 +4,13 @@ import './App.css';
 
 import Drawer from './components/Drawer';
 import HighchartsTest from './components/HighchartsTest';
-import MapGL from './components/MapGL';
+import HighchartsTestMap from './components/HighchartsTestMap.jsx';
 
 const App: React.FC = () => {
   return (
     <div className="App">
         {/* <HighchartsTest/> */}
-        <MapGL/>
+        <HighchartsTestMap/>
         <Drawer/>
     </div>
   );

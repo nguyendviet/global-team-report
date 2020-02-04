@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as ReactDom from 'react-dom';
 import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
