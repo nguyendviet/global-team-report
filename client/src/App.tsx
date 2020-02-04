@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 import Drawer from './components/Drawer';
-import HighchartsTestMap from './components/HighchartsTestMap';
+import WorldMap from './components/WorldMap';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-        <HighchartsTestMap/>
+        <WorldMap/>
         <Drawer/>
     </div>
   );

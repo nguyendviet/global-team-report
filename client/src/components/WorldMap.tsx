@@ -26,7 +26,7 @@ const options: Highcharts.Options = {
     }
 }
 
-export default function HighchartsTestMap(props: HighchartsReact.Props) {
+export default function WorldMap(props: HighchartsReact.Props) {
     return(
         <div>
             <HighchartsReact
