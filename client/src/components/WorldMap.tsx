@@ -21,6 +21,11 @@ const options: Highcharts.Options = {
         mapData: mapDataWorld,
         data: worldMapData,
         // borderColor: '#fff',
+        // Zones don't seem to work for point value
+        // zones: [{
+        //     value: 2,
+        //     color: '#f7a35c'
+        // }]
     }],
     tooltip: {
         headerFormat: '',
@@ -33,7 +38,7 @@ const options: Highcharts.Options = {
     chart: {
         style: {
             fontFamily: 'Inconsolata',
-            // color: "#ffffff"
+            color: 'rgba(0, 0, 0, 0.54)'
         },
         // backgroundColor: '#282c34'
     },
@@ -41,7 +46,7 @@ const options: Highcharts.Options = {
         itemStyle: {
             color: 'rgba(0, 0, 0, 0.54)'
         } 
-    } 
+    }
 }
 
 export default function WorldMap(props: HighchartsReact.Props) {
