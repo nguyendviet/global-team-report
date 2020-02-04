@@ -98,7 +98,7 @@ export default function TemporaryDrawer() {
 
   return (
     <div className={classes.root}>
-      <Button onClick={toggleDrawer('left', true)}>Open Left</Button>
+      <Button variant="contained" onClick={toggleDrawer('left', true)}>Open Left</Button>
       <Button onClick={toggleDrawer('right', true)}>Open Right</Button>
       <Button onClick={toggleDrawer('top', true)}>Open Top</Button>
       <Button onClick={toggleDrawer('bottom', true)}>Open Bottom</Button>

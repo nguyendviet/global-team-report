@@ -5,9 +5,15 @@ import HighchartsReact from 'highcharts-react-official';
 import mapDataWorld from '@highcharts/map-collection/custom/world.geo.json';
 import worldMapData from '../data/WorldMapData';
 
+import './WorldMap.css';
+
 const options: Highcharts.Options = {
     title: {
-        text: 'World Map'
+        text: 'World Map',
+        style: {
+            fontFamily: 'Inconsolata',
+            color: 'rgba(0, 0, 0, 0.54)'
+        },
     },
     series: [{
         name: 'Coverage',
@@ -23,7 +29,19 @@ const options: Highcharts.Options = {
             const info = `The value for ${country.name} is ${country.value}`
             return info;
         }
-    }
+    },
+    chart: {
+        style: {
+            fontFamily: 'Inconsolata',
+            // color: "#ffffff"
+        },
+        // backgroundColor: '#282c34'
+    },
+    legend: {
+        itemStyle: {
+            color: 'rgba(0, 0, 0, 0.54)'
+        } 
+    } 
 }
 
 export default function WorldMap(props: HighchartsReact.Props) {
