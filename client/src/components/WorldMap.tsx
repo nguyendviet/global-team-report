@@ -19,13 +19,7 @@ const options: Highcharts.Options = {
         name: 'Coverage',
         type: 'map',
         mapData: mapDataWorld,
-        data: worldMapData,
-        // borderColor: '#fff',
-        // Zones don't seem to work for point value
-        // zones: [{
-        //     value: 2,
-        //     color: '#f7a35c'
-        // }]
+        data: worldMapData
     }],
     tooltip: {
         headerFormat: '',
@@ -46,6 +40,24 @@ const options: Highcharts.Options = {
         itemStyle: {
             color: 'rgba(0, 0, 0, 0.54)'
         } 
+    },
+    colorAxis: {
+        dataClasses: [
+            {
+                to: 10,
+                color: "red"
+            }, 
+            {
+                from: 10,
+                to: 20,
+                color: "orange"
+            }, 
+            {
+                from: 20,
+                to: 50,
+                color: "yellow"
+            }
+        ]
     }
 }
 
