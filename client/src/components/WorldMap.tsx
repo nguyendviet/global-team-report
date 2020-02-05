@@ -16,7 +16,6 @@ const options: Highcharts.Options = {
         },
     },
     series: [{
-        name: 'Coverage',
         type: 'map',
         mapData: mapDataWorld,
         data: worldMapData
@@ -44,18 +43,28 @@ const options: Highcharts.Options = {
     colorAxis: {
         dataClasses: [
             {
-                to: 10,
-                color: "red"
+                from: 0,
+                to: 0,
+                color: "#9E9E9E",
+                name: 'No Data'
             }, 
             {
-                from: 10,
-                to: 20,
-                color: "orange"
+                from: 1,
+                to: 1,
+                color: "#FF1744",
+                name: 'Bad'
             }, 
             {
-                from: 20,
-                to: 50,
-                color: "yellow"
+                from: 2,
+                to: 2,
+                color: "#FFEA00",
+                name: 'Medium'
+            },
+            {
+                from: 3,
+                to: 3,
+                color: "#00E676",
+                name: 'Good'
             }
         ]
     }
