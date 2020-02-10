@@ -3,13 +3,13 @@ import * as Highcharts from 'highcharts/highmaps';
 import HighchartsReact from 'highcharts-react-official';
 
 import mapDataWorld from '@highcharts/map-collection/custom/world.geo.json';
-import worldMapData from '../data/WorldMapData';
+import worldMapData from '../data/WorldMapData.json';
 
 import './WorldMap.css';
 
 const options: Highcharts.Options = {
     title: {
-        text: 'World Map',
+        text: 'Global Internet Report',
         style: {
             fontFamily: 'Inconsolata',
             color: 'rgba(0, 0, 0, 0.54)'
@@ -24,6 +24,7 @@ const options: Highcharts.Options = {
         headerFormat: '',
         formatter: function () {
             const country = this.point;
+            console.log(this);
             const info = `The value for ${country.name} is ${country.value}`
             return info;
         }

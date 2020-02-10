@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <div className="App">
         {/* <ScrollTab/> */}
         {/* <IconTab/> */}
-        <FixedTab/>
+        {/* <FixedTab/> */}
         <WorldMap/>
         {/* <Drawer/> */}
     </div>
