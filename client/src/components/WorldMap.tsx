@@ -24,8 +24,12 @@ const options: Highcharts.Options = {
         headerFormat: '',
         formatter: function () {
             const country = this.point;
-            console.log(this);
-            const info = `The value for ${country.name} is ${country.value}`
+            let rating: string = '';
+            if (country.value === 0) rating = 'No Data';
+            if (country.value === 1) rating = 'Bad Internet';
+            if (country.value === 2) rating = 'Average Internet';
+            if (country.value === 3) rating = 'Good Internet';
+            const info = `<b>${country.name}<b><br/>${rating}`;
             return info;
         }
     },
@@ -41,6 +45,24 @@ const options: Highcharts.Options = {
             color: 'rgba(0, 0, 0, 0.54)'
         } 
     },
+    // responsive: {
+    //     rules: [{
+    //         chartOptions: {
+    //             chart: {
+    //                 height: 800,
+    //             },
+    //             legend: {
+    //                 margin: 0
+    //             },
+    //             title: {
+    //                 margin: 0
+    //             }
+    //         },
+    //         condition: {
+    //             // maxWidth: 1024
+    //         }
+    //     }]
+    // },
     colorAxis: {
         dataClasses: [
             {

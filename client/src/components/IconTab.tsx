@@ -6,11 +6,14 @@ import Tab from '@material-ui/core/Tab';
 import PhoneIcon from '@material-ui/icons/Phone';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PersonPinIcon from '@material-ui/icons/PersonPin';
+import WifiIcon from '@material-ui/icons/Wifi';
+import SecurityIcon from '@material-ui/icons/Security';
+import PermScanWifiIcon from '@material-ui/icons/PermScanWifi';
+import ReportProblemIcon from '@material-ui/icons/ReportProblem';
 
 const useStyles = makeStyles({
   root: {
-    flexGrow: 1,
-    maxWidth: 500,
+    flexGrow: 1
   },
 });
 
@@ -27,14 +30,14 @@ export default function IconLabelTabs() {
       <Tabs
         value={value}
         onChange={handleChange}
-        variant="fullWidth"
+        // variant="fullWidth"
         indicatorColor="secondary"
         textColor="secondary"
-        aria-label="icon label tabs example"
+        aria-label="report types"
+        centered
       >
-        <Tab icon={<PhoneIcon />} label="RECENTS" />
-        <Tab icon={<FavoriteIcon />} label="FAVORITES" />
-        <Tab icon={<PersonPinIcon />} label="NEARBY" />
+        <Tab icon={<WifiIcon />} label="INTERNET SPEED" />
+        <Tab icon={<ReportProblemIcon />} label="CYBER ATTACKS" />
       </Tabs>
     </Paper>
   );

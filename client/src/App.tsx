@@ -13,7 +13,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
         {/* <ScrollTab/> */}
-        {/* <IconTab/> */}
+        <IconTab/>
         {/* <FixedTab/> */}
         <WorldMap/>
         {/* <Drawer/> */}
