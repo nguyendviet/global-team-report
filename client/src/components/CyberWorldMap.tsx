@@ -26,9 +26,9 @@ const options: Highcharts.Options = {
             const country = this.point;
             let rating: string = '';
             if (country.value === 0) rating = 'No Data';
-            if (country.value === 1) rating = 'High Rate of Attack';
+            if (country.value === 1) rating = 'Low Rate of Attack';
             if (country.value === 2) rating = 'Moderate Rate of Attack';
-            if (country.value === 3) rating = 'Low Rate of Attack';
+            if (country.value === 3) rating = 'High Rate of Attack';
             const info = `<b>${country.name}<b><br/>${rating}`;
             return info;
         }

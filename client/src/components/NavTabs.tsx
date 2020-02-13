@@ -84,11 +84,9 @@ export default function NavTabs() {
           <LinkTab label="Cyber Attacks" href="/cyber-attacks" {...a11yProps(1)} />
         </Tabs>
       <TabPanel value={value} index={0}>
-        Internet Speed Report
         <InternetWorldMap/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Cyber Attack Report
         <CyberWorldMap/>
       </TabPanel>
     </div>
