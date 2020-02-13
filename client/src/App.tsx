@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 import Drawer from './components/Drawer';
-import WorldMap from './components/WorldMap';
 
 import ScrollTab from './components/ScrollTab';
 import IconTab from './components/IconTab';

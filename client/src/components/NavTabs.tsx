@@ -6,7 +6,8 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 
-import WorldMap from './WorldMap';
+import InternetWorldMap from './InternetWorldMap';
+import CyberWorldMap from './CyberWorldMap';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -84,11 +85,11 @@ export default function NavTabs() {
         </Tabs>
       <TabPanel value={value} index={0}>
         Internet Speed Report
-        <WorldMap/>
+        <InternetWorldMap/>
       </TabPanel>
       <TabPanel value={value} index={1}>
         Cyber Attack Report
-        <WorldMap/>
+        <CyberWorldMap/>
       </TabPanel>
     </div>
   );
