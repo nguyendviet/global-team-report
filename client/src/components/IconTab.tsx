@@ -30,7 +30,6 @@ export default function IconLabelTabs() {
       <Tabs
         value={value}
         onChange={handleChange}
-        // variant="fullWidth"
         indicatorColor="secondary"
         textColor="secondary"
         aria-label="report types"

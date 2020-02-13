@@ -9,12 +9,15 @@ import ScrollTab from './components/ScrollTab';
 import IconTab from './components/IconTab';
 import FixedTab from './components/FixedTab';
 
+import NavTabs from './components/NavTabs';
+
 const App: React.FC = () => {
   return (
     <div className="App">
         {/* <ScrollTab/> */}
-        <IconTab/>
+        {/* <IconTab/> */}
         {/* <FixedTab/> */}
+        <NavTabs/>
         <WorldMap/>
         {/* <Drawer/> */}
     </div>
