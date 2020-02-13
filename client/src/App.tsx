@@ -18,7 +18,7 @@ const App: React.FC = () => {
         {/* <IconTab/> */}
         {/* <FixedTab/> */}
         <NavTabs/>
-        <WorldMap/>
+        {/* <WorldMap/> */}
         {/* <Drawer/> */}
     </div>
   );

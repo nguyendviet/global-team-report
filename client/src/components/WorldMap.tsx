@@ -3,13 +3,14 @@ import * as Highcharts from 'highcharts/highmaps';
 import HighchartsReact from 'highcharts-react-official';
 
 import mapDataWorld from '@highcharts/map-collection/custom/world.geo.json';
-import worldMapData from '../data/WorldMapData.json';
+import internetSpeedData from '../data/InternetSpeedWorldReport.json';
+import cyberAttackData from '../data/CyberAttackWorldReport.json'
 
 import './WorldMap.css';
 
-const options: Highcharts.Options = {
+const internetSpeedOptions: Highcharts.Options = {
     title: {
-        text: 'Global Internet Report',
+        text: '',
         style: {
             fontFamily: 'Inconsolata',
             color: 'rgba(0, 0, 0, 0.54)'
@@ -18,7 +19,7 @@ const options: Highcharts.Options = {
     series: [{
         type: 'map',
         mapData: mapDataWorld,
-        data: worldMapData
+        data: internetSpeedData
     }],
     tooltip: {
         headerFormat: '',
@@ -29,6 +30,73 @@ const options: Highcharts.Options = {
             if (country.value === 1) rating = 'Bad Internet';
             if (country.value === 2) rating = 'Average Internet';
             if (country.value === 3) rating = 'Good Internet';
+            const info = `<b>${country.name}<b><br/>${rating}`;
+            return info;
+        }
+    },
+    chart: {
+        style: {
+            fontFamily: 'Inconsolata',
+            color: 'rgba(0, 0, 0, 0.54)'
+        },
+    },
+    legend: {
+        itemStyle: {
+            color: 'rgba(0, 0, 0, 0.54)'
+        } 
+    },
+    colorAxis: {
+        dataClasses: [
+            {
+                from: 0,
+                to: 0,
+                color: "#9E9E9E",
+                name: 'No Data'
+            }, 
+            {
+                from: 1,
+                to: 1,
+                color: "#FF1744",
+                name: 'Bad'
+            }, 
+            {
+                from: 2,
+                to: 2,
+                color: "#FFEA00",
+                name: 'Medium'
+            },
+            {
+                from: 3,
+                to: 3,
+                color: "#00E676",
+                name: 'Good'
+            }
+        ]
+    }
+}
+
+const cyberAttacksOptions: Highcharts.Options = {
+    title: {
+        text: '',
+        style: {
+            fontFamily: 'Inconsolata',
+            color: 'rgba(0, 0, 0, 0.54)'
+        },
+    },
+    series: [{
+        type: 'map',
+        mapData: mapDataWorld,
+        data: cyberAttackData
+    }],
+    tooltip: {
+        headerFormat: '',
+        formatter: function () {
+            const country = this.point;
+            let rating: string = '';
+            if (country.value === 0) rating = 'No Data';
+            if (country.value === 1) rating = 'High Rate of Attack';
+            if (country.value === 2) rating = 'Moderate Rate of Attack';
+            if (country.value === 3) rating = 'Low Rate of Attack';
             const info = `<b>${country.name}<b><br/>${rating}`;
             return info;
         }
@@ -74,21 +142,21 @@ const options: Highcharts.Options = {
             {
                 from: 1,
                 to: 1,
-                color: "#FF1744",
-                name: 'Bad'
-            }, 
+                color: "#00E676",
+                name: 'Low Rate'
+            },
             {
                 from: 2,
                 to: 2,
                 color: "#FFEA00",
-                name: 'Medium'
+                name: 'Moderate Rate'
             },
             {
                 from: 3,
                 to: 3,
-                color: "#00E676",
-                name: 'Good'
-            }
+                color: "#FF1744",
+                name: 'High Rate'
+            }, 
         ]
     }
 }
@@ -97,7 +165,7 @@ export default function WorldMap(props: HighchartsReact.Props) {
     return(
         <div>
             <HighchartsReact
-                options={options}
+                options={internetSpeedOptions}
                 highcharts = { Highcharts }
                 constructorType={'mapChart'}
                 {...props}
