@@ -1,107 +1,133 @@
 [
   {
     "hc-key": "ad",
-    "value": 0
+    "value": 0,
+    "country-name": "Andorra"
   },
   {
     "hc-key": "ae",
-    "value": 0
+    "value": 0,
+    "country-name": "United Arab Emirates"
   },
   {
     "hc-key": "af",
-    "value": 0
+    "value": 0,
+    "country-name": "Afghanistan"
   },
   {
     "hc-key": "ag",
-    "value": 0
+    "value": 0,
+    "country-name": "Antigua and Barbuda"
   },
   {
     "hc-key": "al",
-    "value": 0
+    "value": 0,
+    "country-name": "Albania"
   },
   {
     "hc-key": "am",
-    "value": 0
+    "value": 0,
+    "country-name": "Armenia"
   },
   {
     "hc-key": "ao",
-    "value": 0
+    "value": 0,
+    "country-name": "Angola"
   },
   {
     "hc-key": "ar",
-    "value": 0
+    "value": 0,
+    "country-name": "Argentina"
   },
   {
     "hc-key": "as",
-    "value": 0
+    "value": 0,
+    "country-name": "American Samoa"
   },
   {
     "hc-key": "at",
-    "value": 0
+    "value": 0,
+    "country-name": "Austria"
   },
   {
     "hc-key": "au",
-    "value": 0
+    "value": 0,
+    "country-name": "Australia"
   },
   {
     "hc-key": "az",
-    "value": 0
+    "value": 0,
+    "country-name": "Azerbaijan"
   },
   {
     "hc-key": "ba",
-    "value": 0
+    "value": 0,
+    "country-name": "Bosnia and Herzegovina"
   },
   {
     "hc-key": "bb",
-    "value": 0
+    "value": 0,
+    "country-name": "Barbados"
   },
   {
     "hc-key": "bd",
-    "value": 0
+    "value": 0,
+    "country-name": "Bangladesh"
   },
   {
     "hc-key": "be",
-    "value": 0
+    "value": 0,
+    "country-name": "Belgium"
   },
   {
     "hc-key": "bf",
-    "value": 0
+    "value": 0,
+    "country-name": "Burkina Faso"
   },
   {
     "hc-key": "bg",
-    "value": 0
+    "value": 0,
+    "country-name": "Bulgaria"
   },
   {
     "hc-key": "bh",
-    "value": 0
+    "value": 0,
+    "country-name": "Bahrain"
   },
   {
     "hc-key": "bi",
-    "value": 0
+    "value": 0,
+    "country-name": "Burundi"
   },
   {
     "hc-key": "bj",
-    "value": 0
+    "value": 0,
+    "country-name": "Benin"
   },
   {
     "hc-key": "bn",
-    "value": 0
+    "value": 0,
+    "country-name": "Brunei Darussalam"
   },
   {
     "hc-key": "bo",
-    "value": 0
+    "value": 0,
+    "country-name": "Bolivia, Plurinational State of"
   },
   {
     "hc-key": "br",
-    "value": 0
+    "value": 0,
+    "country-name": "Brazil"
   },
   {
     "hc-key": "bs",
-    "value": 0
+    "value": 0,
+    "country-name": "Bahamas"
   },
   {
     "hc-key": "bt",
-    "value": 0
+    "value": 0,
+    "country-name": "Bhutan"
   },
   {
     "hc-key": "bu",
@@ -109,51 +135,63 @@
   },
   {
     "hc-key": "bw",
-    "value": 0
+    "value": 0,
+    "country-name": "Botswana"
   },
   {
     "hc-key": "by",
-    "value": 0
+    "value": 0,
+    "country-name": "Belarus"
   },
   {
     "hc-key": "bz",
-    "value": 0
+    "value": 0,
+    "country-name": "Belize"
   },
   {
     "hc-key": "ca",
-    "value": 0
+    "value": 0,
+    "country-name": "Canada"
   },
   {
     "hc-key": "cd",
-    "value": 0
+    "value": 0,
+    "country-name": "Congo, the Democratic Republic of the"
   },
   {
     "hc-key": "cf",
-    "value": 0
+    "value": 0,
+    "country-name": "Central African Republic"
   },
   {
     "hc-key": "cg",
-    "value": 0
+    "value": 0,
+    "country-name": "Congo"
   },
   {
     "hc-key": "ch",
-    "value": 0
+    "value": 0,
+    "country-name": "Switzerland"
   },
   {
     "hc-key": "ci",
-    "value": 0
+    "value": 0,
+    "country-name": "Côte d'Ivoire"
   },
   {
     "hc-key": "cl",
-    "value": 0
+    "value": 0,
+    "country-name": "Chile"
   },
   {
     "hc-key": "cm",
-    "value": 0
+    "value": 0,
+    "country-name": "Cameroon"
   },
   {
     "hc-key": "cn",
-    "value": 0
+    "value": 0,
+    "country-name": "China"
   },
   {
     "hc-key": "cnm",
@@ -161,203 +199,253 @@
   },
   {
     "hc-key": "co",
-    "value": 0
+    "value": 0,
+    "country-name": "Colombia"
   },
   {
     "hc-key": "cr",
-    "value": 0
+    "value": 0,
+    "country-name": "Costa Rica"
   },
   {
     "hc-key": "cu",
-    "value": 0
+    "value": 0,
+    "country-name": "Cuba"
   },
   {
     "hc-key": "cv",
-    "value": 0
+    "value": 0,
+    "country-name": "Cape Verde"
   },
   {
     "hc-key": "cy",
-    "value": 0
+    "value": 0,
+    "country-name": "Cyprus"
   },
   {
     "hc-key": "cz",
-    "value": 0
+    "value": 0,
+    "country-name": "Czech Republic"
   },
   {
     "hc-key": "de",
-    "value": 0
+    "value": 0,
+    "country-name": "Germany"
   },
   {
     "hc-key": "dj",
-    "value": 0
+    "value": 0,
+    "country-name": "Djibouti"
   },
   {
     "hc-key": "dk",
-    "value": 0
+    "value": 0,
+    "country-name": "Denmark"
   },
   {
     "hc-key": "dm",
-    "value": 0
+    "value": 0,
+    "country-name": "Dominica"
   },
   {
     "hc-key": "do",
-    "value": 0
+    "value": 0,
+    "country-name": "Dominican Republic"
   },
   {
     "hc-key": "dz",
-    "value": 0
+    "value": 0,
+    "country-name": "Algeria"
   },
   {
     "hc-key": "ec",
-    "value": 0
+    "value": 0,
+    "country-name": "Ecuador"
   },
   {
     "hc-key": "ee",
-    "value": 0
+    "value": 0,
+    "country-name": "Estonia"
   },
   {
     "hc-key": "eg",
-    "value": 0
+    "value": 0,
+    "country-name": "Egypt"
   },
   {
     "hc-key": "eh",
-    "value": 0
+    "value": 0,
+    "country-name": "Western Sahara"
   },
   {
     "hc-key": "er",
-    "value": 0
+    "value": 0,
+    "country-name": "Eritrea"
   },
   {
     "hc-key": "es",
-    "value": 0
+    "value": 0,
+    "country-name": "Spain"
   },
   {
     "hc-key": "et",
-    "value": 0
+    "value": 0,
+    "country-name": "Ethiopia"
   },
   {
     "hc-key": "fi",
-    "value": 0
+    "value": 0,
+    "country-name": "Finland"
   },
   {
     "hc-key": "fj",
-    "value": 0
+    "value": 0,
+    "country-name": "Fiji"
   },
   {
     "hc-key": "fm",
-    "value": 0
+    "value": 0,
+    "country-name": "Micronesia, Federated States of"
   },
   {
     "hc-key": "fo",
-    "value": 0
+    "value": 0,
+    "country-name": "Faroe Islands"
   },
   {
     "hc-key": "fr",
-    "value": 0
+    "value": 0,
+    "country-name": "France"
   },
   {
     "hc-key": "ga",
-    "value": 0
+    "value": 0,
+    "country-name": "Gabon"
   },
   {
     "hc-key": "gb",
-    "value": 0
+    "value": 0,
+    "country-name": "United Kingdom"
   },
   {
     "hc-key": "gd",
-    "value": 0
+    "value": 0,
+    "country-name": "Grenada"
   },
   {
     "hc-key": "ge",
-    "value": 0
+    "value": 0,
+    "country-name": "Georgia"
   },
   {
     "hc-key": "gh",
-    "value": 0
+    "value": 0,
+    "country-name": "Ghana"
   },
   {
     "hc-key": "gl",
-    "value": 0
+    "value": 0,
+    "country-name": "Greenland"
   },
   {
     "hc-key": "gm",
-    "value": 0
+    "value": 0,
+    "country-name": "Gambia"
   },
   {
     "hc-key": "gn",
-    "value": 0
+    "value": 0,
+    "country-name": "Guinea"
   },
   {
     "hc-key": "gq",
-    "value": 0
+    "value": 0,
+    "country-name": "Equatorial Guinea"
   },
   {
     "hc-key": "gr",
-    "value": 0
+    "value": 0,
+    "country-name": "Greece"
   },
   {
     "hc-key": "gt",
-    "value": 0
+    "value": 0,
+    "country-name": "Guatemala"
   },
   {
     "hc-key": "gu",
-    "value": 0
+    "value": 0,
+    "country-name": "Guam"
   },
   {
     "hc-key": "gw",
-    "value": 0
+    "value": 0,
+    "country-name": "Guinea-Bissau"
   },
   {
     "hc-key": "gy",
-    "value": 0
+    "value": 0,
+    "country-name": "Guyana"
   },
   {
     "hc-key": "hn",
-    "value": 0
+    "value": 0,
+    "country-name": "Honduras"
   },
   {
     "hc-key": "hr",
-    "value": 0
+    "value": 0,
+    "country-name": "Croatia"
   },
   {
     "hc-key": "ht",
-    "value": 0
+    "value": 0,
+    "country-name": "Haiti"
   },
   {
     "hc-key": "hu",
-    "value": 0
+    "value": 0,
+    "country-name": "Hungary"
   },
   {
     "hc-key": "id",
-    "value": 0
+    "value": 0,
+    "country-name": "Indonesia"
   },
   {
     "hc-key": "ie",
-    "value": 0
+    "value": 0,
+    "country-name": "Ireland"
   },
   {
     "hc-key": "il",
-    "value": 0
+    "value": 0,
+    "country-name": "Israel"
   },
   {
     "hc-key": "in",
-    "value": 0
+    "value": 0,
+    "country-name": "India"
   },
   {
     "hc-key": "iq",
-    "value": 0
+    "value": 0,
+    "country-name": "Iraq"
   },
   {
     "hc-key": "ir",
-    "value": 0
+    "value": 0,
+    "country-name": "Iran, Islamic Republic of"
   },
   {
     "hc-key": "is",
-    "value": 0
+    "value": 0,
+    "country-name": "Iceland"
   },
   {
     "hc-key": "it",
-    "value": 0
+    "value": 0,
+    "country-name": "Italy"
   },
   {
     "hc-key": "jk",
@@ -365,47 +453,58 @@
   },
   {
     "hc-key": "jm",
-    "value": 0
+    "value": 0,
+    "country-name": "Jamaica"
   },
   {
     "hc-key": "jo",
-    "value": 0
+    "value": 0,
+    "country-name": "Jordan"
   },
   {
     "hc-key": "jp",
-    "value": 0
+    "value": 0,
+    "country-name": "Japan"
   },
   {
     "hc-key": "ke",
-    "value": 0
+    "value": 0,
+    "country-name": "Kenya"
   },
   {
     "hc-key": "kg",
-    "value": 0
+    "value": 0,
+    "country-name": "Kyrgyzstan"
   },
   {
     "hc-key": "kh",
-    "value": 0
+    "value": 0,
+    "country-name": "Cambodia"
   },
   {
     "hc-key": "ki",
-    "value": 0
+    "value": 0,
+    "country-name": "Kiribati"
   },
   {
     "hc-key": "km",
-    "value": 0
+    "value": 0,
+    "country-name": "Comoros"
   },
   {
     "hc-key": "kn",
-    "value": 0
+    "value": 0,
+    "country-name": "Saint Kitts and Nevis"
   },
   {
     "hc-key": "kp",
-    "value": 0
+    "value": 0,
+    "country-name": "Korea, Democratic People's Republic of"
   },
   {
     "hc-key": "kr",
-    "value": 0
+    "value": 0,
+    "country-name": "Korea, Republic of"
   },
   {
     "hc-key": "kv",
@@ -413,287 +512,358 @@
   },
   {
     "hc-key": "kw",
-    "value": 0
+    "value": 0,
+    "country-name": "Kuwait"
   },
   {
     "hc-key": "kz",
-    "value": 0
+    "value": 0,
+    "country-name": "Kazakhstan"
   },
   {
     "hc-key": "la",
-    "value": 0
+    "value": 0,
+    "country-name": "Lao People's Democratic Republic"
   },
   {
     "hc-key": "lb",
-    "value": 0
+    "value": 0,
+    "country-name": "Lebanon"
   },
   {
     "hc-key": "lc",
-    "value": 0
+    "value": 0,
+    "country-name": "Saint Lucia"
   },
   {
     "hc-key": "li",
-    "value": 0
+    "value": 0,
+    "country-name": "Liechtenstein"
   },
   {
     "hc-key": "lk",
-    "value": 0
+    "value": 0,
+    "country-name": "Sri Lanka"
   },
   {
     "hc-key": "lr",
-    "value": 0
+    "value": 0,
+    "country-name": "Liberia"
   },
   {
     "hc-key": "ls",
-    "value": 0
+    "value": 0,
+    "country-name": "Lesotho"
   },
   {
     "hc-key": "lt",
-    "value": 0
+    "value": 0,
+    "country-name": "Lithuania"
   },
   {
     "hc-key": "lu",
-    "value": 0
+    "value": 0,
+    "country-name": "Luxembourg"
   },
   {
     "hc-key": "lv",
-    "value": 0
+    "value": 0,
+    "country-name": "Latvia"
   },
   {
     "hc-key": "ly",
-    "value": 0
+    "value": 0,
+    "country-name": "Libya"
   },
   {
     "hc-key": "ma",
-    "value": 0
+    "value": 0,
+    "country-name": "Morocco"
   },
   {
     "hc-key": "mc",
-    "value": 0
+    "value": 0,
+    "country-name": "Monaco"
   },
   {
     "hc-key": "md",
-    "value": 0
+    "value": 0,
+    "country-name": "Moldova, Republic of"
   },
   {
     "hc-key": "me",
-    "value": 0
+    "value": 0,
+    "country-name": "Montenegro"
   },
   {
     "hc-key": "mg",
-    "value": 0
+    "value": 0,
+    "country-name": "Madagascar"
   },
   {
     "hc-key": "mh",
-    "value": 0
+    "value": 0,
+    "country-name": "Marshall Islands"
   },
   {
     "hc-key": "mk",
-    "value": 0
+    "value": 0,
+    "country-name": "Macedonia, the former Yugoslav Republic of"
   },
   {
     "hc-key": "ml",
-    "value": 0
+    "value": 0,
+    "country-name": "Mali"
   },
   {
     "hc-key": "mm",
-    "value": 0
+    "value": 0,
+    "country-name": "Myanmar"
   },
   {
     "hc-key": "mn",
-    "value": 0
+    "value": 0,
+    "country-name": "Mongolia"
   },
   {
     "hc-key": "mp",
-    "value": 0
+    "value": 0,
+    "country-name": "Northern Mariana Islands"
   },
   {
     "hc-key": "mr",
-    "value": 0
+    "value": 0,
+    "country-name": "Mauritania"
   },
   {
     "hc-key": "mt",
-    "value": 0
+    "value": 0,
+    "country-name": "Malta"
   },
   {
     "hc-key": "mu",
-    "value": 0
+    "value": 0,
+    "country-name": "Mauritius"
   },
   {
     "hc-key": "mv",
-    "value": 0
+    "value": 0,
+    "country-name": "Maldives"
   },
   {
     "hc-key": "mw",
-    "value": 0
+    "value": 0,
+    "country-name": "Malawi"
   },
   {
     "hc-key": "mx",
-    "value": 0
+    "value": 0,
+    "country-name": "Mexico"
   },
   {
     "hc-key": "my",
-    "value": 0
+    "value": 0,
+    "country-name": "Malaysia"
   },
   {
     "hc-key": "mz",
-    "value": 0
+    "value": 0,
+    "country-name": "Mozambique"
   },
   {
     "hc-key": "na",
-    "value": 0
+    "value": 0,
+    "country-name": "Namibia"
   },
   {
     "hc-key": "nc",
-    "value": 0
+    "value": 0,
+    "country-name": "New Caledonia"
   },
   {
     "hc-key": "ne",
-    "value": 0
+    "value": 0,
+    "country-name": "Niger"
   },
   {
     "hc-key": "ng",
-    "value": 0
+    "value": 0,
+    "country-name": "Nigeria"
   },
   {
     "hc-key": "ni",
-    "value": 0
+    "value": 0,
+    "country-name": "Nicaragua"
   },
   {
     "hc-key": "nl",
-    "value": 0
+    "value": 0,
+    "country-name": "Netherlands"
   },
   {
     "hc-key": "no",
-    "value": 0
+    "value": 0,
+    "country-name": "Norway"
   },
   {
     "hc-key": "np",
-    "value": 0
+    "value": 0,
+    "country-name": "Nepal"
   },
   {
     "hc-key": "nr",
-    "value": 0
+    "value": 0,
+    "country-name": "Nauru"
   },
   {
     "hc-key": "nz",
-    "value": 0
+    "value": 0,
+    "country-name": "New Zealand"
   },
   {
     "hc-key": "om",
-    "value": 0
+    "value": 0,
+    "country-name": "Oman"
   },
   {
     "hc-key": "pa",
-    "value": 0
+    "value": 0,
+    "country-name": "Panama"
   },
   {
     "hc-key": "pe",
-    "value": 0
+    "value": 0,
+    "country-name": "Peru"
   },
   {
     "hc-key": "pg",
-    "value": 0
+    "value": 0,
+    "country-name": "Papua New Guinea"
   },
   {
     "hc-key": "ph",
-    "value": 0
+    "value": 0,
+    "country-name": "Philippines"
   },
   {
     "hc-key": "pk",
-    "value": 0
+    "value": 0,
+    "country-name": "Pakistan"
   },
   {
     "hc-key": "pl",
-    "value": 0
+    "value": 0,
+    "country-name": "Poland"
   },
   {
     "hc-key": "pr",
-    "value": 0
+    "value": 0,
+    "country-name": "Puerto Rico"
   },
   {
     "hc-key": "pt",
-    "value": 0
+    "value": 0,
+    "country-name": "Portugal"
   },
   {
     "hc-key": "pw",
-    "value": 0
+    "value": 0,
+    "country-name": "Palau"
   },
   {
     "hc-key": "py",
-    "value": 0
+    "value": 0,
+    "country-name": "Paraguay"
   },
   {
     "hc-key": "qa",
-    "value": 0
+    "value": 0,
+    "country-name": "Qatar"
   },
   {
     "hc-key": "ro",
-    "value": 0
+    "value": 0,
+    "country-name": "Romania"
   },
   {
     "hc-key": "rs",
-    "value": 0
+    "value": 0,
+    "country-name": "Serbia"
   },
   {
     "hc-key": "ru",
-    "value": 0
+    "value": 0,
+    "country-name": "Russian Federation"
   },
   {
     "hc-key": "rw",
-    "value": 0
+    "value": 0,
+    "country-name": "Rwanda"
   },
   {
     "hc-key": "sa",
-    "value": 0
+    "value": 0,
+    "country-name": "Saudi Arabia"
   },
   {
     "hc-key": "sb",
-    "value": 0
+    "value": 0,
+    "country-name": "Solomon Islands"
   },
   {
     "hc-key": "sc",
-    "value": 0
+    "value": 0,
+    "country-name": "Seychelles"
   },
   {
     "hc-key": "sd",
-    "value": 0
+    "value": 0,
+    "country-name": "Sudan"
   },
   {
     "hc-key": "se",
-    "value": 0
+    "value": 0,
+    "country-name": "Sweden"
   },
   {
     "hc-key": "sg",
-    "value": 0
+    "value": 0,
+    "country-name": "Singapore"
   },
   {
     "hc-key": "sh",
-    "value": 0
+    "value": 0,
+    "country-name": "Saint Helena, Ascension and Tristan da Cunha"
   },
   {
     "hc-key": "si",
-    "value": 0
+    "value": 0,
+    "country-name": "Slovenia"
   },
   {
     "hc-key": "sk",
-    "value": 0
+    "value": 0,
+    "country-name": "Slovakia"
   },
   {
     "hc-key": "sl",
-    "value": 0
+    "value": 0,
+    "country-name": "Sierra Leone"
   },
   {
     "hc-key": "sm",
-    "value": 0
+    "value": 0,
+    "country-name": "San Marino"
   },
   {
     "hc-key": "sn",
-    "value": 0
+    "value": 0,
+    "country-name": "Senegal"
   },
   {
     "hc-key": "so",
-    "value": 0
+    "value": 0,
+    "country-name": "Somalia"
   },
   {
     "hc-key": "sp",
@@ -701,19 +871,23 @@
   },
   {
     "hc-key": "sr",
-    "value": 0
+    "value": 0,
+    "country-name": "Suriname"
   },
   {
     "hc-key": "ss",
-    "value": 0
+    "value": 0,
+    "country-name": "South Sudan"
   },
   {
     "hc-key": "st",
-    "value": 0
+    "value": 0,
+    "country-name": "Sao Tome and Principe"
   },
   {
     "hc-key": "sv",
-    "value": 0
+    "value": 0,
+    "country-name": "El Salvador"
   },
   {
     "hc-key": "sw",
@@ -721,134 +895,167 @@
   },
   {
     "hc-key": "sx",
-    "value": 0
+    "value": 0,
+    "country-name": "Sint Maarten (Dutch part)"
   },
   {
     "hc-key": "sy",
-    "value": 0
+    "value": 0,
+    "country-name": "Syrian Arab Republic"
   },
   {
     "hc-key": "sz",
-    "value": 0
+    "value": 0,
+    "country-name": "Swaziland"
   },
   {
     "hc-key": "td",
-    "value": 0
+    "value": 0,
+    "country-name": "Chad"
   },
   {
     "hc-key": "tg",
-    "value": 0
+    "value": 0,
+    "country-name": "Togo"
   },
   {
     "hc-key": "th",
-    "value": 0
+    "value": 0,
+    "country-name": "Thailand"
   },
   {
     "hc-key": "tj",
-    "value": 0
+    "value": 0,
+    "country-name": "Tajikistan"
   },
   {
     "hc-key": "tl",
-    "value": 0
+    "value": 0,
+    "country-name": "Timor-Leste"
   },
   {
     "hc-key": "tm",
-    "value": 0
+    "value": 0,
+    "country-name": "Turkmenistan"
   },
   {
     "hc-key": "tn",
-    "value": 0
+    "value": 0,
+    "country-name": "Tunisia"
   },
   {
     "hc-key": "to",
-    "value": 0
+    "value": 0,
+    "country-name": "Tonga"
   },
   {
     "hc-key": "tr",
-    "value": 0
+    "value": 0,
+    "country-name": "Turkey"
   },
   {
     "hc-key": "tt",
-    "value": 0
+    "value": 0,
+    "country-name": "Trinidad and Tobago"
   },
   {
     "hc-key": "tv",
-    "value": 0
+    "value": 0,
+    "country-name": "Tuvalu"
   },
   {
     "hc-key": "tw",
-    "value": 0
+    "value": 0,
+    "country-name": "Taiwan, Province of China"
   },
   {
     "hc-key": "tz",
-    "value": 0
+    "value": 0,
+    "country-name": "Tanzania, United Republic of"
   },
   {
     "hc-key": "ua",
-    "value": 0
+    "value": 0,
+    "country-name": "Ukraine"
   },
   {
     "hc-key": "ug",
-    "value": 0
+    "value": 0,
+    "country-name": "Uganda"
   },
   {
     "hc-key": "um",
-    "value": 0
+    "value": 0,
+    "country-name": "United States Minor Outlying Islands"
   },
   {
     "hc-key": "us",
-    "value": 0
+    "value": 0,
+    "country-name": "United States"
   },
   {
     "hc-key": "uy",
-    "value": 0
+    "value": 0,
+    "country-name": "Uruguay"
   },
   {
     "hc-key": "uz",
-    "value": 0
+    "value": 0,
+    "country-name": "Uzbekistan"
   },
   {
     "hc-key": "va",
-    "value": 0
+    "value": 0,
+    "country-name": "Holy See (Vatican City State)"
   },
   {
     "hc-key": "vc",
-    "value": 0
+    "value": 0,
+    "country-name": "Saint Vincent and the Grenadines"
   },
   {
     "hc-key": "ve",
-    "value": 0
+    "value": 0,
+    "country-name": "Venezuela, Bolivarian Republic of"
   },
   {
     "hc-key": "vi",
-    "value": 0
+    "value": 0,
+    "country-name": "Virgin Islands, U.S."
   },
   {
     "hc-key": "vn",
-    "value": 0
+    "value": 0,
+    "country-name": "Viet Nam"
   },
   {
     "hc-key": "vu",
-    "value": 0
+    "value": 0,
+    "country-name": "Vanuatu"
   },
   {
     "hc-key": "ws",
-    "value": 0
+    "value": 0,
+    "country-name": "Samoa"
   },
   {
     "hc-key": "ye",
-    "value": 0
+    "value": 0,
+    "country-name": "Yemen"
   },
   {
     "hc-key": "za",
-    "value": 0
+    "value": 0,
+    "country-name": "South Africa"
   },
   {
     "hc-key": "zm",
-    "value": 0
+    "value": 0,
+    "country-name": "Zambia"
   },
   {
     "hc-key": "zw",
-    "value": 0
+    "value": 0,
+    "country-name": "Zimbabwe"
   }
 ]
