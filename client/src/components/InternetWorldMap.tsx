@@ -38,7 +38,8 @@ const options: Highcharts.Options = {
             fontFamily: 'Inconsolata',
             color: 'rgba(0, 0, 0, 0.54)'
         },
-        zoomType: 'xy'
+        zoomType: 'xy',
+        panKey: 'shift'
     },
     legend: {
         itemStyle: {
