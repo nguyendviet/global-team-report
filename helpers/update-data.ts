@@ -1,8 +1,7 @@
-const fs = require('fs');
-const csv = require('csv');
-const parse = require('csv-parse/lib/sync');
-const path = require('path');
-const moment = require('moment');
+import * as fs from 'fs';
+import * as parse from 'csv-parse/lib/sync';
+import * as path from 'path';
+import * as moment from 'moment';
 
 const SOURCE_PATH = path.join(__dirname, '..', 'data');
 const TARGET_PATH = path.join(__dirname, '..', 'client', 'src', 'data');
