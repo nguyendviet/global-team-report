@@ -2,6 +2,8 @@ import * as React from 'react';
 import * as Highcharts from 'highcharts/highmaps';
 import HighchartsReact from 'highcharts-react-official';
 
+import DetailList from './DetailList';
+
 import mapDataWorld from '@highcharts/map-collection/custom/world.geo.json';
 import internetSpeedData from '../data/InternetSpeedWorldReport.json';
 
@@ -93,6 +95,9 @@ export default function InternetWorldMap(props: HighchartsReact.Props) {
                 highcharts = { Highcharts }
                 constructorType={'mapChart'}
                 {...props}
+            />
+            <DetailList
+                data={internetSpeedData}
             />
         </div>
     )
