@@ -31,10 +31,9 @@ function buildCountriesArrayFrom(data: any) {
         let rating: string = '';
 
         const speed: number = country[value];
-        if (speed >= 1 && speed < 2) rating = 'Bad';
-        if (speed >= 2 && speed < 5) rating = 'Fair';
-        if (speed >= 5 && speed < 9) rating = 'Average';
-        if (speed >= 9) rating = 'Good';
+        if (speed > 0 && speed < 3) rating = 'Bad';
+        if (speed >= 3 && speed <= 8) rating = 'Fair';
+        if (speed > 8) rating = 'Good';
 
         return createData(country[code], country[name], country[value], rating);
     });

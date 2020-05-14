@@ -30,10 +30,9 @@ const options: Highcharts.Options = {
             if (country.value) {
                 const n = country.value;
                 if (n === 0) rating = 'No Data';
-                if (n >= 1 && n < 2) rating = 'Bad Internet';
-                if (n >= 2 && n < 5) rating = 'Fair Internet';
-                if (n >= 5 && n < 9) rating = 'Average Internet';
-                if (n >= 9) rating = 'Good Internet';
+                if (n > 0 && n < 3) rating = 'Bad Internet';
+                if (n >= 3 && n <= 8) rating = 'Fair Internet';
+                if (n > 8) rating = 'Good Internet';
             }
             const info = `<b>${country.name}<b><br/>${rating}`;
             return info;
@@ -62,21 +61,15 @@ const options: Highcharts.Options = {
             }, 
             {
                 from: 1,
-                to: 1,
+                to: 2,
                 color: "#eb3b5a",
                 name: 'Bad'
-            }, 
+            },
             {
-                from: 2,
-                to: 4,
-                color: "#fa8231",
-                name: 'Fair'
-            }, 
-            {
-                from: 5,
+                from: 3,
                 to: 8,
                 color: "#fed330",
-                name: 'Average'
+                name: 'Fair'
             },
             {
                 from: 9,
